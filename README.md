@@ -61,7 +61,8 @@ yarn install
 
 ![Skill Test Result Page Screenshot](https://drive.google.com/uc?export=view&id=1jzk3wYCVx7zLtJcG3UcQwVydsCQuc-Oi)
 ![Skill Test Graphical Representation and Donut Chart](https://drive.google.com/uc?export=view&id=1jzHBo5xyKbPOS9kqoALoMY506gxsabEB)
-![Video of Working](https://drive.google.com/uc?export=view&id=1ju8_i-YFRrrMWVXa4KJeWfFJY9F1niIp)
+[Video of Working](https://drive.google.com/file/d/1ju8_i-YFRrrMWVXa4KJeWfFJY9F1niIp/view?usp=sharing)
+
 
 
    
