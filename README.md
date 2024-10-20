@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Skill Test Result Page
 
-## Getting Started
+This project is a web application that displays the result of a skill test. It includes options to view, update, and analyze the skill test results. The project is built using **Next.js** for the framework and **Tailwind CSS** for styling. The application features graphical and progress bar representations of user performance using **ShadCN** components and an npm package for the progress bar.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Skill Test Result Display**: Shows the skill test results with a detailed analysis.
+- **Update Modal**: A modal that allows users to update their skill test details. Once submitted, the new details update the results on the page.
+- **Graphical Percentile Representation**: Utilizes **ShadCN UI Line Chart** to represent the percentile comparison visually.
+- **Donut Chart for Score**: Uses **ShadCN UI Donut Chart** to show the total score visually.
+- **Syllabus-Wise Analysis**: Includes an **npm progress bar** to show progress on syllabus topics.
+- **Responsive Design**: Fully responsive and optimized for different screen sizes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Charting Components**: [ShadCN UI Line Chart](https://shadcn.dev/) and [ShadCN UI Donut Chart](https://shadcn.dev/)
+- **Progress Bar**: [npm progressBar](https://www.npmjs.com/package/@ramonak/react-progress-bar)
+- **Hosting**: Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How It Works
 
-## Learn More
+1. The skill test result page shows a summary of the user's performance, including the overall score and percentile.
+2. Users can click the **Update** button to open a modal. After submitting the new details, the page reflects the updated results.
+3. The **Line Chart** represents the user's percentile compared to others.
+4. The **Donut Chart** visually displays the total score.
+5. The **Progress Bar** shows the completion status of syllabus topics.
 
-To learn more about Next.js, take a look at the following resources:
+## Setup Instructions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Node.js (version 14 or higher)
+- npm or yarn
 
-## Deploy on Vercel
+### Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+npm install
+or 
+yarn install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+3. Start the deployment Server
+
+   npm run dev
+   or
+   yarn dev
+
+4. Open your browser and navigate to:
+   http://localhost:3000
+
+   
+#Screenshots
+
+![Skill Test Result Page Screenshot]([https://example.com/screenshot.png](https://drive.google.com/file/d/1jzk3wYCVx7zLtJcG3UcQwVydsCQuc-Oi/view))
+![Skill Test Graphical Representaion and Donut Chart](https://drive.google.com/file/d/1jzHBo5xyKbPOS9kqoALoMY506gxsabEB/view)
+![Video of Working](https://drive.google.com/file/d/1ju8_i-YFRrrMWVXa4KJeWfFJY9F1niIp/view?usp=drivesdk)
+
+   
