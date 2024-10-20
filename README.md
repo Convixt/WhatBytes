@@ -57,7 +57,7 @@ yarn install
    
 #Screenshots
 
-![Skill Test Result Page Screenshot]([https://example.com/screenshot.png](https://drive.google.com/file/d/1jzk3wYCVx7zLtJcG3UcQwVydsCQuc-Oi/view))
+![Skill Test Result Page Screenshot](https://drive.google.com/file/d/1jzk3wYCVx7zLtJcG3UcQwVydsCQuc-Oi/view)
 ![Skill Test Graphical Representaion and Donut Chart](https://drive.google.com/file/d/1jzHBo5xyKbPOS9kqoALoMY506gxsabEB/view)
 ![Video of Working](https://drive.google.com/file/d/1ju8_i-YFRrrMWVXa4KJeWfFJY9F1niIp/view?usp=drivesdk)
 
